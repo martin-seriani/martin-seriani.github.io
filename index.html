@@ -1840,14 +1840,13 @@
         tag: 'AI · Full Stack',
         title: 'Reflective Essay Writer',
         links: {
-          demo: 'https://your-essay-writer-demo-url.com',
-          github: 'https://github.com/yourusername/reflective-essay-writer'
+          demo: 'https://essay-writer-frontend-997555087239.europe-west2.run.app/',
+          github: 'https://github.com/martin-seriani/essay-writer'
         },
         slides: [
-          { type: 'placeholder', label: 'Screenshot 1', sub: 'Step 1 — Topic input & configuration' },
-          { type: 'placeholder', label: 'Screenshot 2', sub: 'Step 2 — Key points editor' },
-          { type: 'placeholder', label: 'Screenshot 3', sub: 'Step 4 — AI critique panel' },
-          { type: 'placeholder', label: 'Screenshot 4', sub: 'Step 5 — Final essay & export' },
+          { type: 'image', label: 'screenshots/essay/essay_homepage.png', sub: 'Step 1 — Topic input & configuration' },
+          { type: 'image', label: 'screenshots/essay/essay_personas.png', sub: 'Step 2 — Selecting Personas' },
+          { type: 'image', label: 'screenshots/essay/essay_personas2.png', sub: 'Step 3 — Selecting Personas' },
         ],
         sections: [
           { label: 'The Problem', body: `Most AI writing tools are black boxes — you type a prompt, you get an essay. There's no transparency, no opportunity to steer the output, and no reflection built in. The result feels generic because it <em>is</em> generic: a single pass with no self-correction.<br><br>I wanted to build something that modelled <strong>how a thoughtful writer actually thinks</strong>: start with a framework, draft, critique honestly, then revise. The goal wasn't to replace the writer — it was to give them a capable thinking partner at every stage.` },
@@ -1861,7 +1860,7 @@
         title: 'Knowledge Infrastructure System',
         links: {
           demo: 'https://knowledge-infrastructure-system.onrender.com',
-          github: 'https://github.com/yourusername/knowledge-infrastructure-system'
+          github: 'https://github.com/martin-seriani/knowledge-infrastructure-system'
         },
         slides: [
           { type: 'image', label: 'screenshots/kis/KIS_Data_Flow.png', sub: 'Data Flow Diagram' },
@@ -1884,10 +1883,9 @@
           github: 'https://github.com/yourusername/signal-quality-system'
         },
         slides: [
-          { type: 'placeholder', label: 'Screenshot 1', sub: 'Full TradingView chart with indicator active' },
-          { type: 'placeholder', label: 'Screenshot 2', sub: 'Signal Quality table — all three colour states' },
-          { type: 'placeholder', label: 'Screenshot 3', sub: 'Retroactive ✔/✘ pip labels on entry arrows' },
-          { type: 'placeholder', label: 'Screenshot 4', sub: 'Session & Day of Week breakdown' },
+          { type: 'image', label: 'screenshots/tradingview/tradingview_full_chart.png', sub: 'Full TradingView chart with indicator active' },
+          { type: 'image', label: 'screenshots/tradingview/tradingview_alert.png', sub: 'Signal Alert Notification' },
+          { type: 'image', label: 'screenshots/tradingview/tradingview_table.png', sub: 'Signal Quality table — all three colour states' },
         ],
         sections: [
           { label: 'The Problem', body: `There's a problem baked into almost every TradingView indicator: they tell you <em>when</em> to trade, but they're completely silent on whether they've been worth listening to. An arrow fires. A trade opens. There's no systematic record of how it resolved.<br><br>I was running two SuperTrend-based indicators — both generating actionable signals. Neither could tell me whether those signals were worth acting on <strong>in this session, on this pair, on a Tuesday</strong>. That asymmetry had to be fixed.` },
